@@ -10,3 +10,7 @@ const config = require('./config.json');
 app.listen(config.port, () => {
     log(chalk.green(`Server started on port ${config.port}`));
 });
+
+app.get('/', (req, res) => {
+    
+});
